@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+// it knows to add subreddit_id to the params for the model
+  this.resource('posts', { path: '/r/:subreddit_id' });
 });
 
 export default Router;

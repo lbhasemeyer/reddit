@@ -1,3 +1,9 @@
 html, body {
   margin: 20px;
+  font-family: 'News Cycle', sans-serif;
+}
+
+h2 {
+  border: 5px solid white;
+  background: #29E7CD;
 }
